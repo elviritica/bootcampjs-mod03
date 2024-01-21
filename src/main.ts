@@ -47,15 +47,15 @@ const grupo5 : GrupoMusical = {
     genero: rock,
 }
 
-console.log("%cThe Beatles", estiloTitulo);
+console.log(`%c${grupo1.nombre}`, estiloTitulo);
 console.log(grupo1);
-console.log("%cQueen", estiloTitulo);
+console.log(`%c${grupo2.nombre}`, estiloTitulo);
 console.log(grupo2);
-console.log("%cAC/DC", estiloTitulo);
+console.log(`%c${grupo3.nombre}`, estiloTitulo);
 console.log(grupo3);
-console.log("%cLudwig van Beethoven", estiloTitulo);
+console.log(`%c${grupo4.nombre}`, estiloTitulo);
 console.log(grupo4);
-console.log("%cThe Rolling Stones", estiloTitulo);
+console.log(`%c${grupo5.nombre}`, estiloTitulo);
 console.log(grupo5);
 
 
